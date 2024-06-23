@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: "Fondamento";
+}
+body{
+    background-image: url("https://img.freepik.com/fotos-gratis/papel-de-papiro-castanho_53876-14519.jpg");
+    background-size: cover;
+}
+.box, form{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: #93703794;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 200px auto 0;
+    max-width: 20%;
+    min-width: fit-content;
+}
+input{
+    width: 250px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid #937037;
+    padding: 0 15px 0 15px;
+}
+button{
+    width:  100px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid #937037;
+    background-color: #937037;
+    color: white;
+    font-family: "Fondamento";
+    font-size: 15px;
+}
+button:hover{
+    font-weight: bold;
+    background-color: #93703794;
+}
