@@ -4,7 +4,7 @@ const Itel = document.querySelector(".tel");
 const Isenha = document.querySelector(".senha");
 
 export default function cadastrar () {
-    fetch("http://localhost:3000/cadastro",
+    fetch("http://localhost:5173/cadastro",
         {
             headers: {
                 "Accept": "application/json",
