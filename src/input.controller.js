@@ -3,7 +3,7 @@ const Iemail = document.querySelector(".email");
 const Itel = document.querySelector(".tel");
 const Isenha = document.querySelector(".senha");
 
-export default function cadastrar () {
+function cadastrar () {
     fetch("http://localhost:5173/cadastro",
         {
             headers: {
@@ -22,9 +22,11 @@ export default function cadastrar () {
         .catch(function (res) {console.log(res)})
 };
 
-export default function limpar (){
+function limpar (){
     Inome.value = "";
     Iemail.value = "";
     Itel.value = "";
     Isenha.value = "";
 }
+
+export default {cadastrar, limpar}
