@@ -1,9 +1,6 @@
 import './App.css'
 
 function App() {
-  const handleSubmit = (e) => {
-    e.preventDefault();
-  };
 
   return (
     <>
