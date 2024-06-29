@@ -20,7 +20,7 @@ function cadastrar () {
         })
         .then(function (res) {console.log(res)})
         .catch(function (res) {console.log(res)})
-};
+}
 
 function limpar (){
     Inome.value = "";
